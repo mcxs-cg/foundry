@@ -1,4 +1,3 @@
-
 declare @VisitStartDate datetime = '2014-01-01'
 declare @VisitEndDate datetime = getdate()
 
