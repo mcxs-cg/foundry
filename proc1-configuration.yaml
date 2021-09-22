@@ -1,0 +1,18 @@
+sandbox:
+   cyberark_token_address: Object=CPZ_PRD_AA00002640_adb-lasrcloud-prd-ws1_databricks_connect_token_CPZPRDAA00002640LZ01_App_Accnt  
+   cyberark_client_secret_address: Object=CPZ_Prod_AA00002640_w784121_azure_client_secret_lasrmssprdbatch_sp_AzureSP
+   cyberark_client_id_address: Object=CPZ_Prod_AA00002640_w784121_azure_client_id_lasrmssprdbatch_sp_AzureSP
+   cyberark_tenant_id_address: Object=CPZ_Prod_AA00002640_w784121_azure_tenent_id_lasrmssprdbatch_sp_AzureSP
+   cyberark_app_name: CPZ_PRD_AA00002640
+   prefix_path : adl://adlseastus2lasr.azuredatalakestore.net/lasr/sandbox/proc1
+   adls_path : adl://adlseastus2lasr.azuredatalakestore.net/
+   
+staging:
+   cyberark_token_address: Object=SNP_ATS_AA00002640_adb-lasrcloud-tst-ws1_databricks_connect_token_SNPATSAA00002640LZ01_App_Accnt
+   cyberark_client_secret_address: Object=SNP_ATS_AA00002640_x573795_cguser.capgroup.com_lasr_mss_datalake_sp_secret_AzureSP
+   cyberark_client_id_address: Object=SNP_ATS_AA00002640_x573795_cguser.capgroup.com_lasr_mss_datalake_sp_id_AzureSP
+   cyberark_tenant_id_address: Object=SNP_ATS_AA00002640_x573795_cguser.capgroup.com_lasr_mss_datalake_tenant_id_AzureSP
+   cyberark_app_name: SNP_ATS_AA00002640   
+   prefix_path : adl://lasradl1snp.azuredatalakestore.net/lasr/sandbox/proc1-staging/
+   adls_path : adl://lasradl1snp.azuredatalakestore.net/
+   
